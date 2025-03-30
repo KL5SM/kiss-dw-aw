@@ -1,5 +1,5 @@
 #!/bin/bash
 
-bash /home/<YOURFILE>/kissdwaw.sh
+bash /home/<YOURFILE>/kiss-dw-aw.sh
 
 exit 0
