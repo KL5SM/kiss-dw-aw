@@ -1,0 +1,13 @@
+[Unit]
+ConditionFileIsExecutable=/etc/rc.local
+Description=systemd service for legacy /etc/rc.local
+
+[Service]
+ExecStart=/etc/rc.local
+RemainAfterExit=yes
+StandardOutput=tty
+Type=forking
+TimeoutSec=0
+
+[Install]
+WantedBy=multi-user.target
