@@ -42,4 +42,4 @@
      sudo /usr/sbin/netromd 
      sudo /usr/sbin/ax25d
      echo "Finished, if you have errors, check your related .conf files"
-    exit 0 #WOO!1
+    exit 0 #WOO!
