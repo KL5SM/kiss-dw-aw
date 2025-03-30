@@ -4,18 +4,18 @@ Script also 'kissattach'es AX25 to Direwolf1.8d.
 Tested on Raspberry Zero W with latest bookworm firmware. 
 
 Directionarys need to be updated with YOUR home folder name. 
-Check all 3 files for ''<YOURFOLDER>'' and update as needed. 
+Check all 3 files for ''YOURFOLDER'' and update as needed. 
 
 The directions below assume you have installed all needed programs/stacks,
 and have configured them. Dont forget your dialout permissions.
 
-kiss-dw-aw.sh needs put in /home/<YOURFILE>/
+kiss-dw-aw.sh needs put in /home/YOURFILE/
   In Terminal:
-  cmd: sudo chmod o+w --recursive /home/<YOURFILE>/kiss-dw-aw.sh
+  cmd: sudo chmod o+w --recursive /home/YOURFILE/kiss-dw-aw.sh
   
 rc.local needs put in /etc/
 OR!
-add text line "bash /home/<YOURFOLDER>/kissdwaw.sh" to a excisting rc.local file
+add text line "bash /home/YOURFOLDER/kiss-dw-aw.sh" to a excisting rc.local file
 
 rc-local.service needs put in: /etc/systemd/system/ if it isnt there allready
   In Terminal:
